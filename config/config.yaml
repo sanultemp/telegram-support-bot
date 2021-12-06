@@ -1,6 +1,6 @@
 # bot settings
-bot_token: "5096432955:AAEvb1-awIT14uiXyL4TH_ns7uHhxFwiNK0" # support bot tok                                                                                                             en
-staffchat_id: "-1001650023303" # eg. -123456789
+bot_token: "5054241823:AAHcWrl_qDSyc2iiHKfxu8cVMhaBZyXZwoM" # support bot tok                                                                                                             en
+staffchat_id: "-1001729700543" # eg. -123456789
 owner_id: "1539805363"
 spam_time: 5 * 60 * 1000 # time (in MS) in which user may send 5 messages
 
