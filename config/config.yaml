@@ -7,7 +7,7 @@ spam_time: 5 * 60 * 1000 # time (in MS) in which user may send 5 messages
 allow_private: false # Allow / disallow option for staff to chat privately
 direct_reply: false # Set this to true to just forward staff users to a user chat when allow_private
 
-auto_close_tickets: true # Close tickets after answering
+auto_close_tickets: False # Close tickets after answering
 anonymous_tickets: true # Include userid in tickets or not
 
 signal_enabled: false # Enable/disable signal
@@ -18,20 +18,20 @@ web_server_port: 8080 # Port for web server
 web_server_ssl_cert: '../src/web/ssl.crt' # Path for SSL cert
 web_server_ssl_key: '../src/web/ssl.key' # Path for SSL key
 
-dev_mode: true # Enable/disable dev mode
+dev_mode: False # Enable/disable dev mode
 
 # customize your language
 language:
-    startCommandText: "Welcome in our support chat! Ask your question here."
-    faqCommandText: "Get this bot at: <a href='https://github.com/bostrot/telegram-support-bot'>github.com</a>"
-    helpCommandText: "<b>Available commands:</b>\n/help\n/faq\n/id"
-    contactMessage: "Thank you for contacting us. We will answer as soon as possible.\n"
-    blockedSpam: "You sent quite a number of questions in the last while. Please calm down and wait until staff reviews them."
+    startCommandText: "ඔබව සාදරයෙන් පිළිගන්නවා! Widox පාරිභෝගික සහාය සඳහා. 🙂\n\nඅප ඔබට සහය විය යුත්තේ කෙසේද? 🙂"
+    faqCommandText: ""
+    helpCommandText: ""
+    contactMessage: "අප හා සම්බන්ධ වීම ගැන ඔබට ස්තුතියි. අපි හැකි ඉක්මනින් පිළිතුරු දෙන්නෙමු. 🙂"
+    blockedSpam: "ඔබ පසුගිය කාලය තුළ ප්‍රශ්න ගණනාවක් එවීම හේතුවෙන්, කරුණාකර සන්සුන් වී කාර්ය මණ්ඩලය ඒවා සමාලෝචනය කරන තෙක් රැඳී සිටින්න. 🙂"
     ticket: "Ticket"
     closed: "closed"
     acceptedBy: "was accepted by"
     dear: "Dear"
-    regards: "Best regards,"
+    regards: "මීට,"
     from: "from"
     language: "Language"
     msg_sent: "Message sent to user"
@@ -52,15 +52,15 @@ language:
     openTickets: "Open Tickets"
     support: "Support"
     prvChatOnly: "This command can be used in private chat only."
-    ticketClosed: "Your ticket was closed by our staff. You can open a new ticket at any time."
+    ticketClosed: "ඔබගේ ටිකට්පත අපගේ කාර්ය මණ්ඩලය විසින් වසා දමන ලදී. ඔබට ඕනෑම වේලාවක නව ටිකට් පතක් විවෘත කළ හැකිය."
     links: "Direct support links"
-    textFirst: "Please send us a message before sending an image so that we can help you better."
+    textFirst: "පින්තුරයක් යැවීමට පෙර කරුණාකර අපට පණිවිඩයක් එවන්න එවිට අපට ඔබට වඩාත් හොඳින් සේවාව ලබා දීමට හැක. 🙂"
     ticketClosedError: "You cannot reply to a closed ticket."
     automatedReply: "This is an automated reply."
     automatedReplyAuthor: "BottyBot."
     doesntHelp: "This does not help."
     automatedReplySent: "Automated reply was send to the user."
-    ticketReopened: "Ticket reopened."
+    ticketReopened: "ටිකට් පත නැවත විවෘත කරන ලදී."
 
 # categories: 
 #  - name: "Category1"
