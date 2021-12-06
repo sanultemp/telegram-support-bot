@@ -36,8 +36,6 @@ function autoReply(ctx, bot, chat) {
       let msg = `${cache.config.language.dear} `+
         `${middleware.escapeText(ctx.message.from.first_name)},\n\n`+
         `${middleware.escapeText(strings[i][1])}\n\n`+
-        `${cache.config.language.regards}\n`+
-        `${cache.config.language.automatedReplyAuthor}\n\n`+
         `<i>${cache.config.language.automatedReply}</i>`;
 
       // Send message with keyboard
