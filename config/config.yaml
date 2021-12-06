@@ -1,7 +1,7 @@
 # bot settings
-bot_token: "YOUR_BOT_TOKEN" # support bot tok                                                                                                             en
-staffchat_id: "SUPERGROUP_CHAT_ID" # eg. -123456789
-owner_id: "YOUR_TELEGRAM_ID"
+bot_token: "5096432955:AAEvb1-awIT14uiXyL4TH_ns7uHhxFwiNK0" # support bot tok                                                                                                             en
+staffchat_id: "-1001650023303" # eg. -123456789
+owner_id: "1539805363"
 spam_time: 5 * 60 * 1000 # time (in MS) in which user may send 5 messages
 
 allow_private: false # Allow / disallow option for staff to chat privately
